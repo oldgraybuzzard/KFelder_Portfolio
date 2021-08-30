@@ -72,10 +72,51 @@ header h1 {
     background-size: cover;
     background-position: 80%;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     align-items: flex-start;
     background-attachment: fixed;
+    color: whitesmoke;
+}
+.bio ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+.bio a {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.2;
+}
+.aboutMe {
+    border: 2px solid var(--primaryColor);
+    margin: 50px 5px 50px 5px;
+    
+
+}
+
+.work {
+    border: 2px solid var(--primaryColor);
+    margin: 50px 5px 50px 5px;
+    
+}
+
+.contactMe {
+        border: 2px solid var(--primaryColor);
+        margin: 50px 5px 50px 5px;
+
+}
+
+.resume {
+    
+    border: 2px solid var(--primaryColor);
+    margin: 50px 5px 50px 5px;
+
 }
 
 
