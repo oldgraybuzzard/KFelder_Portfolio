@@ -15,6 +15,9 @@ box-sizing: border-box;
 margin: 0;
 padding: 0;
 }
+hr {
+  border-width: 5px;
+}
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -132,7 +135,7 @@ text-shadow: 0 0 10px rgba(132, 135, 137, 0.8);
 }
 .work-and-contact-container p, ul li {
   font-size: 24px;
-}
+  }
 
 .work-examples {
   width: 40%;
@@ -144,23 +147,35 @@ text-shadow: 0 0 10px rgba(132, 135, 137, 0.8);
 .resume-container h2 {
   font-family: 'Shadows Into Light';
   font-size: 48px;
+  text-align: center;
 }
 .resume-container h3 {
   font-family: 'Shadows Into Light';
   font-size: 36px;
 }
-.resume-container p, ul li {
-  font-size: 24px;
+
+.resume-work-education-skills-combined-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px 0px 20px;
 }
 .resume-work-container {
   border: 2px solid black;
+   width: 30%;
 }
+.resume-container ul {
+  font-size: 24px;
+  margin-left: 50px;
+}
+
 .resume-education-container {
   border: 2px solid black;
+  width: 30%;
 }
 
 .resume-skills-container {
   border: 2px solid black;
+  width: 30%;
 }
 
 
