@@ -36,7 +36,7 @@ body {
 }
 
 /* Style the header links */
-#header-wrap a {
+.header-wrap a {
   padding: 10px;
   text-decoration: none;
   font-size: 28px;
@@ -47,7 +47,7 @@ body {
 }
 
 /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-#header-wrap a.branding {
+.header-wrap a.branding {
   font-size: 36px;
   line-height: 1.2;
   font-weight: bold;
@@ -56,13 +56,13 @@ body {
 }
 
 /* Change the background color on mouse-over */
-#header-wrap a:hover {
+.header-wrap a:hover {
   background-color: #ddd;
   color: black;
 }
 
 /* Style the active/current link*/
-#header-links a.active {
+.header-links a.active {
   background-color: dodgerblue;
   color: white;
 }
@@ -130,10 +130,7 @@ text-shadow: 0 0 10px rgba(132, 135, 137, 0.8);
   font-size: 48px;
   font-family: 'Shadows Into Light';
 }
-.work-and-contact-container p {
-  font-size: 24px;
-}
-.work-and-contact-container ul li {
+.work-and-contact-container p, ul li {
   font-size: 24px;
 }
 
@@ -141,16 +138,31 @@ text-shadow: 0 0 10px rgba(132, 135, 137, 0.8);
   width: 40%;
 }
 
-.resume-meat-container {
+.resume-container {
       margin: 50px 5px 50px 5px;
         }
-.resume-meat-container h2 {
+.resume-container h2 {
   font-family: 'Shadows Into Light';
   font-size: 48px;
 }
-.resume-meat-container p {
-  
+.resume-container h3 {
+  font-family: 'Shadows Into Light';
+  font-size: 36px;
 }
+.resume-container p, ul li {
+  font-size: 24px;
+}
+.resume-work-container {
+  border: 2px solid black;
+}
+.resume-education-container {
+  border: 2px solid black;
+}
+
+.resume-skills-container {
+  border: 2px solid black;
+}
+
 
 
 /* FOOTER STYLES START */
