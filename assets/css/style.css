@@ -113,6 +113,9 @@ text-shadow: 0 0 10px rgba(132, 135, 137, 0.8);
   .about-me-text-container {
     margin-left: 15px;
   }
+  .about-me-text-container ul {
+    font-size: 36px;
+  }
 
 .about-me-container h2 {
   font-family: 'Shadows Into Light';
