@@ -1,3 +1,3 @@
 # Kendall Felder Portolilio Web Site
 
-Work in progress
+This wehsite is a portfolio of to showcase my background and work.
